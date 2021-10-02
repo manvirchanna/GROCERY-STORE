@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package guneet;
+import java.util.*;
 
 /*
  *
@@ -82,7 +83,7 @@ public class Content extends javax.swing.JFrame {
                 jRadioButton3ActionPerformed(evt);
             }
         });
-
+        system.out.println("Vege");
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/guneet/b.jpe"))); // NOI18N
         jLabel2.setText("jLabel2");
 
